@@ -70,41 +70,41 @@ document.querySelectorAll("section").forEach((section) => {
 
 // زر العودة للأعلى
 
-const topBtn = document.createElement("button");
+// const topBtn = document.createElement("button");
 
-topBtn.innerHTML = "⬆";
+// topBtn.innerHTML = "⬆";
 
-topBtn.id = "topBtn";
+// topBtn.id = "topBtn";
 
-document.body.appendChild(topBtn);
+// document.body.appendChild(topBtn);
 
-topBtn.style.position = "fixed";
-topBtn.style.bottom = "30px";
-topBtn.style.right = "30px";
-topBtn.style.padding = "15px";
-topBtn.style.border = "none";
-topBtn.style.borderRadius = "50%";
-topBtn.style.background = "#2563eb";
-topBtn.style.color = "white";
-topBtn.style.cursor = "pointer";
-topBtn.style.display = "none";
-topBtn.style.fontSize = "18px";
+// topBtn.style.position = "fixed";
+// topBtn.style.bottom = "30px";
+// topBtn.style.right = "30px";
+// topBtn.style.padding = "15px";
+// topBtn.style.border = "none";
+// topBtn.style.borderRadius = "50%";
+// topBtn.style.background = "#2563eb";
+// topBtn.style.color = "white";
+// topBtn.style.cursor = "pointer";
+// topBtn.style.display = "none";
+// topBtn.style.fontSize = "18px";
 
-window.addEventListener("scroll", () => {
-  if (window.scrollY > 300) {
-    topBtn.style.display = "block";
-  } else {
-    topBtn.style.display = "none";
-  }
-});
+// window.addEventListener("scroll", () => {
+//   if (window.scrollY > 300) {
+//     topBtn.style.display = "block";
+//   } else {
+//     topBtn.style.display = "none";
+//   }
+// });
 
-topBtn.onclick = () => {
-  window.scrollTo({
-    top: 0,
+// topBtn.onclick = () => {
+//   window.scrollTo({
+//     top: 0,
 
-    behavior: "smooth",
-  });
-};
+//     behavior: "smooth",
+//   });
+// };
 
 // رسالة عند الضغط على زر المشاريع
 
