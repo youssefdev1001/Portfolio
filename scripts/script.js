@@ -110,11 +110,6 @@ topBtn.onclick = () => {
 
 const projectBtn = document.querySelector("button");
 
-if (projectBtn) {
-  projectBtn.addEventListener("click", () => {
-    alert("Bienvenue dans mon Portfolio 🚀");
-  });
-}
 // ===========================
 // Hamburger Menu
 // ===========================
