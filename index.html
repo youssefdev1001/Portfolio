@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Amine Lahniti - Infographiste">
+    <title>Amine Lahniti | Portfolio</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+          integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="preloader"><div class="loader"></div></div>
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <a href="#home" class="nav-logo">AMINE</a>
+
+            <ul class="menu" id="menu">
+                <li><a href="#home" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="icon-btn" id="themeToggle" type="button" aria-label="Changer le thème">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button class="hamburger" id="hamburger" type="button"
+                        aria-label="Ouvrir le menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-text reveal-left">
+            <div class="eyebrow">
+                <i class="fa-solid fa-circle-check"></i>
+                Disponible pour de nouveaux projets
+            </div>
+
+            <h3>Bonjour</h3>
+
+            <h1>Je suis <span>Amine Lahniti</span></h1>
+
+            <div class="typing-line">
+                Je suis <span id="typing"></span><span class="cursor"></span>
+            </div>
+
+            <p>
+                Infographiste passionné par la création d'identités visuelles,
+                de branding et de supports de communication modernes.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Voir mes projets
+                </a>
+
+                <a href="cv.html" class="btn btn-outline">
+                    <i class="fa-solid fa-file-lines"></i>
+                    Voir mon CV
+                </a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/amine-lahniti-7894bb30a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/amine-lahniti" target="_blank" rel="noopener" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/amine_lahniti.1?utm_source=qr&igsh=MXhmMGFnaG12Z2FxNQ==" target="_blank" rel="noopener" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:aminelahniti18@gmail.com" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image reveal-right">
+            <div class="profile-wrap">
+                <img src="images/profile.png" alt="Photo de Amine Lahniti">
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+        <div class="about-image reveal-left">
+            <img src="images/profile.png" alt="Amine Lahniti">
+        </div>
+
+        <div class="about-content reveal-right">
+            <h2>À propos de moi</h2>
+
+            <p>
+                Je suis un graphiste passionné par la création d'identités
+                visuelles modernes et de supports de communication impactants.
+                Diplômé en infographie, je conçois des designs qui allient
+                créativité, esthétique et efficacité.
+            </p>
+
+            <p>
+                Je maîtrise la conception d'identités visuelles, les supports
+                imprimés, les visuels pour les réseaux sociaux, les affiches
+                publicitaires et le branding.
+            </p>
+
+            <p>
+                Curieux, rigoureux et motivé, je cherche constamment à développer
+                mes compétences, à suivre les tendances du design et à relever
+                de nouveaux défis créatifs.
+            </p>
+
+            <a href="cv.html" class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+                Découvrir mon CV
+            </a>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title reveal">Mes Compétences</h2>
+        <p class="section-subtitle reveal">
+            Des compétences créatives et techniques pour transformer une idée
+            en une identité visuelle professionnelle.
+        </p>
+
+        <div class="skills-container">
+            <div class="skill-card reveal">
+                <h3>Adobe Photoshop</h3>
+                <div class="bar"><div class="fill photoshop"></div></div>
+            </div>
+
+            <div class="skill-card reveal">
+                <h3>Adobe Illustrator</h3>
+                <div class="bar"><div class="fill illustrator"></div></div>
+            </div>
+
+            <div class="skill-card reveal">
+                <h3>Adobe InDesign</h3>
+                <div class="bar"><div class="fill indesign"></div></div>
+            </div>
+
+            <div class="skill-card reveal">
+                <h3>Branding</h3>
+                <div class="bar"><div class="fill branding"></div></div>
+            </div>
+
+            <div class="skill-card reveal">
+                <h3>Logo Design</h3>
+                <div class="bar"><div class="fill logo"></div></div>
+            </div>
+
+            <div class="skill-card reveal">
+                <h3>Social Media Design</h3>
+                <div class="bar"><div class="fill social"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio section" id="portfolio">
+        <h2 class="section-title reveal">Mon Portfolio</h2>
+        <p class="section-subtitle reveal">
+            Une sélection de projets de branding, logo, publicité et réseaux sociaux.
+        </p>
+
+        <div class="portfolio-grid">
+            <div class="project reveal">
+                <img src="images/projects/project1.jpg" alt="Logo Design">
+                <div class="overlay">
+                    <h3>Logo Design</h3>
+                    <p>Brand Identity</p>
+                </div>
+            </div>
+
+            <div class="project reveal">
+                <img src="images/projects/project2.jpg" alt="Menu Design">
+                <div class="overlay">
+                    <h3>Menu</h3>
+                    <p>Menu Design</p>
+                </div>
+            </div>
+
+            <div class="project reveal">
+                <img src="images/projects/project3.jpg" alt="Poster Design">
+                <div class="overlay">
+                    <h3>Poster</h3>
+                    <p>Advertising</p>
+                </div>
+            </div>
+
+            <div class="project reveal">
+                <img src="images/projects/project4.jpg" alt="Social Media Design">
+                <div class="overlay">
+                    <h3>Social Media</h3>
+                    <p>Instagram & Facebook</p>
+                </div>
+            </div>
+
+            <div class="project reveal">
+                <img src="images/projects/project5.jpg" alt="Branding">
+                <div class="overlay">
+                    <h3>Branding</h3>
+                    <p>Visual Identity</p>
+                </div>
+            </div>
+
+            <div class="project reveal">
+                <img src="images/projects/project6.jpg" alt="Banniere">
+                <div class="overlay">
+                    <h3>Banniere</h3>
+                    <p>Design de banniere</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services">
+        <h2 class="section-title reveal">Mes Services</h2>
+        <p class="section-subtitle reveal">
+            Des solutions graphiques adaptées aux besoins de votre marque.
+        </p>
+
+        <div class="services-grid">
+            <div class="service reveal">
+                <div class="service-icon"><i class="fa-solid fa-palette"></i></div>
+                <h3>Logo Design</h3>
+                <p>Création de logos modernes et professionnels.</p>
+            </div>
+
+            <div class="service reveal">
+                <div class="service-icon"><i class="fa-solid fa-pen-nib"></i></div>
+                <h3>Branding</h3>
+                <p>Identité visuelle complète pour votre entreprise.</p>
+            </div>
+
+            <div class="service reveal">
+                <div class="service-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <h3>Social Media</h3>
+                <p>Design de publications Facebook, Instagram et LinkedIn.</p>
+            </div>
+
+            <div class="service reveal">
+                <div class="service-icon"><i class="fa-solid fa-newspaper"></i></div>
+                <h3>Print Design</h3>
+                <p>Flyers, affiches, cartes de visite et brochures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+        <h2 class="section-title reveal">Contactez-moi</h2>
+        <p class="section-subtitle reveal">
+            Vous avez un projet ? Envoyez-moi un message et discutons-en.
+        </p>
+
+        <form id="contactForm" class="reveal">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre Email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+
+            <button class="btn" type="submit">
+                <i class="fa-solid fa-paper-plane"></i>
+                Envoyer
+            </button>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>Amine Lahniti</h2>
+        <p id="footerText"></p>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/amine-lahniti-7894bb30a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1JhZoUmiHu/" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/amine_lahniti.1?utm_source=qr&igsh=MXhmMGFnaG12Z2FxNQ==" target="_blank" rel="noopener" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="mailto:aminelahniti18@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+
+    <button id="topBtn" type="button" aria-label="Retour en haut">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
